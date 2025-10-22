@@ -1,0 +1,178 @@
+/* 🎨 Colores principales */
+:root {
+  --color-bg: #fff5e1;
+  --color-pink: #ffc0cb;
+  --color-choco: #8b4513;
+  --color-text: #5d4037;
+  --color-text-secondary: #b0bec5;
+  --radius: 8px;
+}
+
+/* 🌸 Estilo global */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Pacifico", cursive;
+  color: var(--color-choco);
+}
+
+a {
+  color: var(--color-choco);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-pink);
+}
+
+/* 🧁 Botones */
+.btn-primary {
+  background-color: var(--color-pink);
+  border: 1px solid var(--color-choco);
+  color: var(--color-text);
+  border-radius: var(--radius);
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-choco);
+  color: white;
+}
+
+.btn-outline-secondary {
+  border: 1px solid var(--color-choco);
+  color: var(--color-choco);
+  border-radius: var(--radius);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--color-choco);
+  color: #fff;
+}
+
+/* 🍰 Navbar */
+.navbar {
+  background-color: var(--color-bg);
+  border-bottom: 2px solid var(--color-pink);
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  color: var(--color-choco);
+  font-size: 1.6rem;
+}
+
+.navbar a {
+  color: var(--color-text);
+  margin-right: 1rem;
+}
+
+.navbar a:hover {
+  color: var(--color-pink);
+}
+
+/* 🧩 Tarjetas de producto */
+.card {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+  color: var(--color-choco);
+}
+
+.card-text {
+  color: var(--color-text-secondary);
+}
+
+.card .btn {
+  border-radius: var(--radius);
+}
+
+/* 🧾 Formularios */
+.form-label {
+  font-weight: 600;
+  color: var(--color-choco);
+}
+
+.form-control {
+  border-radius: var(--radius);
+  border: 1px solid #ddd;
+}
+
+.form-control:focus {
+  border-color: var(--color-pink);
+  box-shadow: 0 0 4px rgba(255, 192, 203, 0.6);
+}
+
+/* 🛒 Carrito */
+.list-group-item {
+  border-color: #f3e3da;
+}
+
+.list-group-item strong {
+  color: var(--color-choco);
+}
+
+/* 📦 Cards generales */
+.card.p-4,
+.card.p-3 {
+  border: 1px solid #f0e2d3;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* 📱 Utilidades */
+.text-secondary {
+  color: var(--color-text-secondary) !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+.me-3 {
+  margin-right: 1rem;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* 🎂 Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background-color: var(--color-bg);
+  color: var(--color-text-secondary);
+  border-top: 2px solid var(--color-pink);
+  margin-top: 3rem;
+}
