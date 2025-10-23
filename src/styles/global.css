@@ -176,3 +176,50 @@ footer {
   border-top: 2px solid var(--color-pink);
   margin-top: 3rem;
 }
+.card h5.card-title {
+  font-family: "Pacifico", cursive;
+  font-size: 1.2rem;
+  color: var(--color-choco);
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid #f3e3da;
+}
+
+.card h5 {
+  color: var(--color-choco);
+}
+
+button.btn {
+  border-radius: 8px;
+}
+.navbar {
+  background-color: var(--color-bg);
+  border-bottom: 2px solid var(--color-pink);
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  color: var(--color-choco) !important;
+}
+
+.nav-link {
+  color: var(--color-text) !important;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--color-pink) !important;
+}
+
+.text-brown {
+  color: var(--color-choco);
+}
